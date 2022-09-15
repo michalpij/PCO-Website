@@ -5,113 +5,136 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="profile.html">Profile</a></li>
-        <li><a href="dashboard.html">Dashboard</a></li>
-        <li><a href="questions.html">FAQ</a></li>
-        <li><a href="blog.html">Blog</a></li>
+    <header>
+      <nav>
+        <label class="logo">Showcase Website</label>
+        <ul class="nav_menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="profile.html">Profile</a></li>
+          <li><a href="dashboard.html">Dashboard</a></li>
+          <li><a href="questions.html">FAQ</a></li>
+          <li><a href="blog.html">Blog</a></li>
+        </ul>
+      </nav>
+    </header>
+    <aside>
+      <ul class="aside_menu">
+        <li class="name">Useful other sites</li>
+        <li><a href="https://learn.hz.nl/my/" target="_blank">HZ Learn</a></li>
+        <li><a href="https://teams.microsoft.com/_?culture=en-us&country=US&lm=deeplink&lmsrc=homePageWeb&cmpid=WebSignIn#/teamDashboard/HBO-ICT%20Algemeen/19:827654897ab746089c081f24aff1c984@thread.skype/td.members" target="_blank">Teams</a></li>
+        <li><a href="https://hz.osiris-student.nl/#/voortgang/:id" target="_blank">Study Progress</a></li>
+        <li><a href="https://github.com/HZ-HBO-ICT" target="_blank">HZ Github</a></li>
+        <li><a href="https://hz.nl/en/about-hz/regulations-documents/regulations-study-programmes" target="_blank">Examination</a></li>
+        <li><a href="#" target="_blank">Implementation</a></li>
       </ul>
-    </nav>
-    <section>
-      <h1>Studiemonitor ICT Jaar 1</h1>
-      <table>
-        <tr>
-          <th>Blok</th>
-          <th>Cursus</th>
-          <th>EC</th>
-          <th>Toets</th>
-          <th>Cijfer</th>
-        </tr>
-        <tr>
-          <td rowspan="3">1</td>
-          <td>Program & Career Orientation</td>
-          <td>2,5</td>
-          <td>Assessment</td>
-          <td>?</td>
-        </tr>
-        <tr>
-          <td>Computer Science Basics</td>
-          <td>5</td>
-          <td>Written exam</td>
-          <td>?</td>
-        </tr>
-        <tr>
-          <td>Programming Basics</td>
-          <td>5</td>
-          <td>Case Study</td>
-          <td>?</td>
-        </tr>
-        <tr>
-          <td rowspan="2">2</td>
-          <td rowspan="2">Object Oriented Programming</td>
-          <td rowspan="2">10</td>
-          <td>Case Study (50%)</td>
-          <td>?</td>
-        </tr>
-        <tr>
-          <td>Project (50%)</td>
-          <td>?</td>
-        </tr>
-        <tr>
-          <td rowspan="4">3</td>
-          <td>Framework Development 1</td>
-          <td>5</td>
-          <td>Case Study</td>
-          <td>?</td>
-        </tr>
-        <tr>
-          <td rowspan="3">Framework Project 1</td>
-          <td rowspan="3">7,5</td>
-          <td>Project (33%)</td>
-          <td>?</td>
-        </tr>
-        <tr>
-          <td>Case study exam (33%)</td>
-          <td>?</td>
-        </tr>
-        <tr>
-          <td>Report (33%)</td>
-          <td>?</td>
-        </tr>
-        <tr>
-          <td rowspan="3">4</td>
-          <td rowspan="3">Framework Project 2</td>
-          <td rowspan="3">10</td>
-          <td>Portfolio (50%)</td>
-          <td>?</td>
-        </tr>
-        <tr>
-          <td>Project (25%)</td>
-          <td>?</td>
-        </tr>
-        <tr>
-          <td>Assessment (25%)</td>
-          <td>?</td>
-        </tr>  
-        <tr>
-          <td rowspan="3">the entire year</td>
-          <td>Personal Professional Development</td>
-          <td>12,5</td>
-          <td>Portfolio</td>
-          <td>?</td>
-        </tr>
-        <tr>
-          <td>Personality 1</td>
-          <td>1,25</td>
-          <td>Portfolio</td>
-          <td>?</td>
-        </tr>
-        <tr>
-          <td>Personality 2</td>
-          <td>1,25</td>
-          <td>Portfolio</td>
-          <td>?</td>
-        </tr>
-      </table>
-    </section>
+    </aside>
+    <main>
+      <section>
+        <h1>Study monitor HBO-ICT Year 1</h1>
+        <hr>
+        <p>This is my study monitor for the first year of ICT. In this table you will find every exam from the upcoming year, together with the course and quartile it belongs to.
+          You will also find the amount of EC's that every exam can get you. During the upcoming year I will add the results of these exams under the grade section. This will in turn show how much EC's I need to earn to pass the NBSA.
+        </p>
+      </section>
+      <section>
+        <table class="dashboard">
+          <tr>
+            <th>Quartile</th>
+            <th>Course</th>
+            <th>EC</th>
+            <th>Exam</th>
+            <th>Grade</th>
+          </tr>
+          <tr>
+            <td rowspan="3">1</td>
+            <td>Program & Career Orientation</td>
+            <td>2,5</td>
+            <td>Assessment</td>
+            <td>?</td>
+          </tr>
+          <tr>
+            <td>Computer Science Basics</td>
+            <td>5</td>
+            <td>Written exam</td>
+            <td>?</td>
+          </tr>
+          <tr>
+            <td>Programming Basics</td>
+            <td>5</td>
+            <td>Case Study</td>
+            <td>?</td>
+          </tr>
+          <tr>
+            <td rowspan="2">2</td>
+            <td rowspan="2">Object Oriented Programming</td>
+            <td rowspan="2">10</td>
+            <td>Case Study (50%)</td>
+            <td>?</td>
+          </tr>
+          <tr>
+            <td>Project (50%)</td>
+            <td>?</td>
+          </tr>
+          <tr>
+            <td rowspan="4">3</td>
+            <td>Framework Development 1</td>
+            <td>5</td>
+            <td>Case Study</td>
+            <td>?</td>
+          </tr>
+          <tr>
+            <td rowspan="3">Framework Project 1</td>
+            <td rowspan="3">7,5</td>
+            <td>Project (33%)</td>
+            <td>?</td>
+          </tr>
+          <tr>
+            <td>Case study exam (33%)</td>
+            <td>?</td>
+          </tr>
+          <tr>
+            <td>Report (33%)</td>
+            <td>?</td>
+          </tr>
+          <tr>
+            <td rowspan="3">4</td>
+            <td rowspan="3">Framework Project 2</td>
+            <td rowspan="3">10</td>
+            <td>Portfolio (50%)</td>
+            <td>?</td>
+          </tr>
+          <tr>
+            <td>Project (25%)</td>
+            <td>?</td>
+          </tr>
+          <tr>
+            <td>Assessment (25%)</td>
+            <td>?</td>
+          </tr>  
+          <tr>
+            <td rowspan="3">the entire year</td>
+            <td>Personal Professional Development</td>
+            <td>12,5</td>
+            <td>Portfolio</td>
+            <td>?</td>
+          </tr>
+          <tr>
+            <td>Personality 1</td>
+            <td>1,25</td>
+            <td>Portfolio</td>
+            <td>?</td>
+          </tr>
+          <tr>
+            <td>Personality 2</td>
+            <td>1,25</td>
+            <td>Portfolio</td>
+            <td>?</td>
+          </tr>
+        </table>
+      </section>
+    </main>
   </body>
 </html>
