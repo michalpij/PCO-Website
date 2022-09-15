@@ -171,3 +171,22 @@ hr {
   background-color: rgb(49, 103, 252);
   border: none;
 }
+
+.positive {
+  margin-left: 300px;
+  margin-right: auto;
+  float: left;
+}
+
+.negative {
+  margin-right: 300px;
+  margin-left: auto;
+  float: right;
+}
+
+.negative li, .positive li {
+  font-family: sans-serif;
+  list-style: disc;
+  line-height: 150%;
+  font-size: 20px;
+}
