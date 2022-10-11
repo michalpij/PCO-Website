@@ -264,7 +264,7 @@ hr {
 }
 
 .accordion-item:target .answer{
-  max-height: 10rem;
+  max-height: 14rem;
 }
 
 .personal {
