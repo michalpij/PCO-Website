@@ -4,6 +4,7 @@
   text-decoration: none;
   list-style: none;
   box-sizing: border-box;
+  font-family: sans-serif;
 }
 
 h1 {
@@ -23,6 +24,10 @@ h3 {
   text-align: center;
   margin: 50px;
   font-size: 22px;
+}
+
+h4 {
+  font-weight: bold;
 }
 
 p {
@@ -80,7 +85,7 @@ hr {
   background-color: rgb(49, 103, 252);
 }
 
-a:hover {
+.hover:hover {
   background: rgb(72, 120, 253);
   transition: .5s;
 }
@@ -93,8 +98,8 @@ a:hover {
 main {
   width: 86vw;
   margin-left: 13vw;
-  padding-left: 150px;
-  padding-right: 150px;
+  padding-left: 160px;
+  padding-right: 160px;
 }
 
 nav {
@@ -177,7 +182,7 @@ th, td {
   max-height: auto;
   float: left;
   margin-bottom: 5px;
-  margin-right: 12px;
+  margin-right: 60px;
   margin-left: 50px;
   padding: 2px;
 }
@@ -187,7 +192,7 @@ th, td {
   max-height: auto;
   float: right;
   margin-bottom: 5px;
-  margin-left: 12px;
+  margin-left: 60px;
   margin-right: 50px;
   padding: 2px;
 }
@@ -260,4 +265,40 @@ hr {
 
 .accordion-item:target .answer{
   max-height: 10rem;
+}
+
+.personal {
+  max-width: 33%;
+  max-height: auto;
+  float: left;
+  margin-bottom: 5px;
+  margin-right: 60px;
+  margin-left: 0px;
+  padding: 2px;
+}
+
+.positive, .negative {
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+}
+
+.positive {
+  padding-left: 200px;
+  padding-right: 75px;
+  font-size: 20px;
+}
+
+.negative {
+  padding-left: 350px;
+  padding-right: 50px;
+  font-size: 20px;
+}
+
+.blogpost {
+  font-family: cursive;
+}
+
+.source {
+  font-style: italic;
 }
